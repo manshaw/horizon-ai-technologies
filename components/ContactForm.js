@@ -8,7 +8,7 @@ export default function ContactForm() {
   const send = () => {
     const subject = encodeURIComponent('Website enquiry from ' + f.name);
     const body = encodeURIComponent(f.message + '\n\n' + f.name + ' (' + f.email + ')');
-    window.location.href = `mailto:support@horizonaitech.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@horizonaitechnologies.com?subject=${subject}&body=${body}`;
   };
   return (
     <div>

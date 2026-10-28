@@ -10,7 +10,7 @@ export default function Contact() {
         <p className="lead">Send a short note and we will reply with next steps.</p>
         <div className="cgrid">
           <div>
-            <a href="mailto:support@horizonaitech.com">support@horizonaitech.com</a><small>Email</small>
+            <a href="mailto: info@horizonaitechnologies.com">info@horizonaitechnologies.com</a><small>Email</small>
             <a href="tel:0333 6781336">0333 6781336</a><small>Phone</small>
           </div>
           <ContactForm />
